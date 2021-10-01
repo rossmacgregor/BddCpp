@@ -61,7 +61,10 @@ int main(int argc, char ** argv)
 
 		ifstream fileStream(fileName);
 		if (!fileStream)
+		{
+			cerr << "Feature file not found: " << fileName;
 			return 1;
+		}
 
 		auto fileSize = filesystem::file_size(filePath);
 		vector<char> file(fileSize + 1);

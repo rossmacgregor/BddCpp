@@ -37,5 +37,8 @@
     <ClInclude Include="BddCppLib\ScanningUtil.h">
       <Filter>BddCppLib</Filter>
     </ClInclude>
+    <ClInclude Include="BddCppLib\Feature.h">
+      <Filter>BddCppLib</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

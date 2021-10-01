@@ -28,6 +28,7 @@
     <ClCompile Include="BddCppLib\Scanner.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BddCppLib\Feature.h" />
     <ClInclude Include="BddCppLib\pch.h" />
     <ClInclude Include="BddCppLib\Scanner.h" />
     <ClInclude Include="BddCppLib\ScanningUtil.h" />
